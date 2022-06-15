@@ -3,18 +3,27 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1635)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+# WPF Dock Layout Manager - Create Floating Panels in XAML
+
+The following example shows how to create floating panels. Follow the steps below to create a floating panel:
+1. Add a [FloatGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.FloatGroup) to the [DockManager.FloatGroups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.FloatGroups) collection.
+2. Add a [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)(s) to the [FloatGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.FloatGroup).
+
 <!-- default file list -->
-*Files to look at*:
+## Files to look at:
 
 * [Window1.xaml](./CS/CreateFloatGroups/Window1.xaml) (VB: [Window1.xaml.vb](./VB/CreateFloatGroups/Window1.xaml.vb))
-* [Window1.xaml.cs](./CS/CreateFloatGroups/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/CreateFloatGroups/Window1.xaml.vb))
 <!-- default file list end -->
-# How to: Create Floating Panels in XAML
 
+## Documentation
 
-<p>The following example shows how to create floating panels.</p>
-<p>To create a floating panel:<br> 1) A <a href="https://documentation.devexpress.com/#WPF/CustomDocument6826">FloatGroup</a> is added to the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfDockingDockLayoutManager_FloatGroupstopic">DockManager.FloatGroups</a> collection<br> 2) A <a href="https://documentation.devexpress.com/#WPF/CustomDocument6823">LayoutPanel</a>(s) is added to the created FloatGroup.</p>
+- [Dock UI Items](https://docs.devexpress.com/WPF/7209/controls-and-libraries/layout-management/dock-windows/dock-items)
+- [FloatGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.FloatGroup)
+- [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)
 
-<br/>
+## More Examples
 
-
+- [WPF Dock Layout Manager - Create a Simple Layout of Dock Panes](https://github.com/DevExpress-Examples/how-to-create-a-simple-layout-of-dock-panes-e1600)
+- [WPF Dock Layout Manager - Create a Complex Layout of Dock Panels](https://github.com/DevExpress-Examples/how-to-create-a-complex-layout-of-dock-panels-e1663)
+- [WPF Dock Layout Manager - Сreate a DocumentGroup with Two Tabs](https://github.com/DevExpress-Examples/how-to-create-a-documentgroup-with-two-tabs-e1670)
+- [WPF Dock Layout Manager - Create a Tabbed and Document Groups](https://github.com/DevExpress-Examples/how-to-create-a-tabbedgroup-and-documentgroup-groups-e1656)
