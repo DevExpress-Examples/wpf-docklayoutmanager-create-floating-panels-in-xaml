@@ -9,6 +9,8 @@ The following example shows how to create floating panels. Follow the steps belo
 1. Add a [FloatGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.FloatGroup) to the [DockManager.FloatGroups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.FloatGroups) collection.
 2. Add a [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)(s) to the [FloatGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.FloatGroup).
 
+![image](https://user-images.githubusercontent.com/12169834/173891334-0b9deed5-e538-4858-a4c0-03a8af73d71e.png)
+
 <!-- default file list -->
 ## Files to look at:
 
