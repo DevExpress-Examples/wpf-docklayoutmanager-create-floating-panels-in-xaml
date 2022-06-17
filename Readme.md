@@ -5,7 +5,7 @@
 # WPF Dock Layout Manager - Create Floating Panels in XAML
 
 This example creates the following floating panels:
-1. Add a [FloatGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.FloatGroup) to the [DockManager.FloatGroups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.FloatGroups) collection.
+1. Adds a [FloatGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.FloatGroup) to the [DockManager.FloatGroups](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.FloatGroups) collection.
 2. Add a [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)(s) to the [FloatGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.FloatGroup).
 
 ![image](https://user-images.githubusercontent.com/12169834/173891334-0b9deed5-e538-4858-a4c0-03a8af73d71e.png)
